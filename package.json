@@ -1,0 +1,36 @@
+{
+  "name": "hockey-ops-player-directory",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#/*": "./src/*"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite preview",
+    "generate-routes": "tsr generate",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.170.31",
+    "@tanstack/react-start": "^1.168.48",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@tanstack/react-devtools": "^0.10.11",
+    "@tanstack/react-router-devtools": "^1.167.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.2",
+    "vite": "^8.0.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "@tanstack/devtools-vite": "^0.8.4",
+    "@tanstack/router-cli": "^1.132.0",
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-react": "^6.0.1"
+  }
+}
