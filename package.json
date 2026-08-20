@@ -1,6 +1,7 @@
 {
   "name": "hockey-ops-player-directory",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "description": "Hockey Ops Player Directory — TanStack Start scaffold",
   "imports": {
