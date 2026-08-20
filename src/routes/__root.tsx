@@ -41,9 +41,8 @@ function RootLayout() {
         <p className="px-4 pt-3 text-sm font-bold text-slate-900">
           Hockey Ops Directory
         </p>
-        <AppNav />
       </header>
-      {/* Matched child route (home, later /players, /players/$playerId, /games) renders here. */}
+      <AppNav />
       <Outlet />
     </>
   )

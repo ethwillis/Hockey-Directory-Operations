@@ -1,6 +1,8 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 
-export const Route = createFileRoute('/games/')({ component: Games })
+export const Route = createFileRoute('/games/')({
+  component: Games,
+})
 
 function Games() {
   return (
