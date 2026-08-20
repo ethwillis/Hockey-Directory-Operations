@@ -36,12 +36,12 @@ export const Route = createRootRoute({
 function RootLayout() {
   return (
     <>
-      {/* Shared header only — no player data tables, no auth, no Supabase. */}
       <header>
         <p className="px-4 pt-3 text-sm font-bold text-slate-900">
           Hockey Ops Directory
         </p>
       </header>
+      {/* Shared nav: Home, Players, Games. */}
       <AppNav />
       <Outlet />
     </>
