@@ -10,10 +10,10 @@ export default defineConfig({
     port: 3000,
   },
   plugins: [
-    devtools(),
     tanstackStart(),
     tsConfigPaths(),
     tailwindcss(),
     viteReact(),
+    devtools(),
   ],
 })
