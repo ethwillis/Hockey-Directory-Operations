@@ -2,6 +2,7 @@ import { HeadContent, Outlet, Scripts, createRootRoute } from '@tanstack/react-r
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 
+import { AppNav } from '../components/AppNav'
 import appCss from '../styles.css?url'
 
 // __root is the shared parent for every page. It is not a URL like /players.
@@ -37,7 +38,10 @@ function RootLayout() {
     <>
       {/* Shared header only — no player data tables, no auth, no Supabase. */}
       <header>
-        <p>Hockey Ops Directory</p>
+        <p className="px-4 pt-3 text-sm font-bold text-slate-900">
+          Hockey Ops Directory
+        </p>
+        <AppNav />
       </header>
       {/* Matched child route (home, later /players, /players/$playerId, /games) renders here. */}
       <Outlet />
