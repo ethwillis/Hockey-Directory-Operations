@@ -1,7 +1,8 @@
 # Scaffold notes — hockey ops player directory
 
 ## What we generated
-- TanStack Start app with React, TypeScript, Vite, and Tailwind CSS
+- TanStack Start app with React, TypeScript, Vite, and Tailwind CSS (`package.json`, `vite.config.ts`, `tsconfig.json`, `tailwind.config.ts`, `src/styles.css`)
+- Starter stubs: `src/router.tsx`, `src/routes/__root.tsx`, `src/routes/index.tsx`
 - No player/games product features yet (routes come next)
 
 ## Key files

@@ -1,6 +1,8 @@
 import { createRouter as createTanStackRouter } from '@tanstack/react-router'
 import { routeTree } from './routeTree.gen'
 
+// TanStack Start router factory (CLI stub)
+
 export function getRouter() {
   const router = createTanStackRouter({
     routeTree,

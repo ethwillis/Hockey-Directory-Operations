@@ -4,6 +4,8 @@ import { TanStackDevtools } from '@tanstack/react-devtools'
 
 import appCss from '../styles.css?url'
 
+// Root document shell for every route
+
 export const Route = createRootRoute({
   head: () => ({
     meta: [

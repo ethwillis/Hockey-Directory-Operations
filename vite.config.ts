@@ -5,6 +5,8 @@ import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
 import { devtools } from '@tanstack/devtools-vite'
 
+// TanStack Start + Vite + Tailwind (current Start plugin API)
+
 export default defineConfig({
   server: {
     port: 3000,
